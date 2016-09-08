@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- 共通の設定 ====================================== -->
+	
+	<!-- コンテンツ情報ファイルパス -->
+	<pathList>
+		<!-- 固有設定ファイル -->
+		<path category="setting" type="XML">setting.xml</path>
+		
+		
+		<!-- ===============================
+			path:各種パス設定
+			@category="dataDir"			: 画像・映像データディレクトリ
+			@category="pillarvisioncross"	: CMS JSON データ（ディレクトリ）
+			@category="layoutDir"		: テンプレート格納ディレクトリ
+		-->
+		
+		<!-- 本番用設定 -->
+		<!--
+		<path category="dataDir" 	type="DIR" >http://10.11.1.100/</path>
+		<path category="pillarvisioncross" 	type="JSON" >http://10.11.1.100/pillar_vision_cross_jrtower/</path>
+		<path category="layoutDir" 	type="DIR" >template/</path>
+		<!--  -->
+		
+		
+		<!-- テストサーバー用設定 -->
+		<path category="dataDir" 	type="DIR" >http://jrtower.dyndns.org/</path>
+		<path category="pillarvisioncross" 	type="JSON" >file:///Users/md760/Documents/workspace/JRtower/bin/esta1/cms_preview_mode_esta_vision.json</path>
+		<path category="layoutDir" 	type="DIR" >template/</path>
+		<!--  -->
+		
+		
+		<!-- 開発テスト用設定 -->
+		<!--
+		<path category="dataDir" 	type="DIR" >http://kb01.stanfoot.com/dummyData/</path>
+		<path category="pillarvisioncross" 	type="JSON" >http://kb01.stanfoot.com/dummyData/pillar_vision_cross_jrtower/</path>
+		<path category="layoutDir" 	type="DIR" >template/</path>
+		
+		<path category="dataDir" 	type="DIR" >../../dummyData/</path>
+		<path category="pillarvisioncross" 	type="JSON" >../../dummyData/pillar_vision_cross_jrtower/</path>
+		<path category="layoutDir" 	type="DIR" >template/</path>
+		<!--  -->
+		
+		<!-- =============================== -->
+		
+		<!-- テンプレートファイル -->
+		<path category="layout1" 	type="SWF" >layout1.swf</path>
+	</pathList>
+	
+	<previewMode>1</previewMode>
+	<quality>HIGH</quality>
+	<debugMode>NO</debugMode>
+</data>
